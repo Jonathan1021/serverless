@@ -1,6 +1,6 @@
 'use strict';
 
-const OrderManager = require('./DynamoDB/OrderManager')
+const OrderManager = require('./dynamo-db/OrderManager')
 
 const uuidv1 = require('uuid/v1');
 const AWS = require('aws-sdk');
